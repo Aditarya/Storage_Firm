@@ -15,7 +15,6 @@ contract StorageFirm {
     function sfStore(uint256 _transStorageIndex, uint256 transStorageNumber) public {
         //Address
         //ABI- Application Binary Interface
-        //transStorage.store(_transStorageNumner);
         transStorageArray[_transStorageIndex].store(transStorageNumber);
     }
     function sfGet(uint256 _transStorageIndex) public view returns(uint256) {
