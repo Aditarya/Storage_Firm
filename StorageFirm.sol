@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./TransStorage.sol";
+//import "./TransStorage.sol";
 
 contract StorageFirm {
     TransStorage[] public transStorageArray;
