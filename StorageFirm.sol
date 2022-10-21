@@ -18,7 +18,5 @@ contract StorageFirm {
     function sfGet(uint256 _transStorageIndex) public view returns(uint256) {
         return transStorageArray[_transStorageIndex].retrieve();
     }
-    //function sf(uint256 _transStorageIndex) public view returns(uint256) {
-       // return transStorageArray[_transStorageIndex].retrieve();
-
+ 
 }
